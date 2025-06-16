@@ -14,26 +14,27 @@
         <h2 class="titulo-principal">Meus Objetivos do Ano<span>_</span></h2>
         <div class="conteudo">
             <div class="botoes">
-                <button class="botao ativo">Formatura</button>
-                <button class="botao">Nascimento da LOLO</button>
-                <button class="botao">Natal</button>
+                <button class="botao ativo" onclick="mostrarAba(0)">Formatura</button>
+                <button class="botao" onclick="mostrarAba(1)">Nascimento da LOLO</button>
+                <button class="botao" onclick="mostrarAba(2)">Natal</button>
             </div>
             <div class="abas-textos">
                 <div class="aba-conteudo ativo">
                     <h3 class="aba-conteudo-titulo-principal">Contagem para a Formatura</h3>
-                    <div class="contador bloco"></div>
+                    <div class="contador bloco" id="contador1"></div>
                 </div>
                 <div class="aba-conteudo">
                     <h3 class="aba-conteudo-titulo-principal">Contagem para o Nascimento da LOLO</h3>
-                    <div class="contador bloco"></div>
+                    <div class="contador bloco" id="contador2"></div>
                 </div>
                 <div class="aba-conteudo">
                     <h3 class="aba-conteudo-titulo-principal">Contagem para o Natal</h3>
-                    <div class="contador bloco"></div>
+                    <div class="contador bloco" id="contador3"></div>
                 </div>
             </div>
         </div>
     </section>
+
     <script src="main.js"></script>
 </body>
 
